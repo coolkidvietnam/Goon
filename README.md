@@ -10,13 +10,11 @@ if success then
     })
 
     local player = game.Players.LocalPlayer
-    local gui = player:WaitForChild("PlayerGui")
+    local backpack = player:WaitForChild("Backpack")
 
-    for _, descendant in pairs(gui:GetDescendants()) do
-        if descendant:IsA("TextLabel") or descendant:IsA("TextButton") then
-            if string.find(descendant.Text:lower(), "yerk off") then
-                descendant.Text = "sục"
-            end
+    for _, tool in pairs(backpack:GetChildren()) do
+        if tool:IsA("Tool") and string.lower(tool.Name) == "jerk off" then
+            tool.Name = "sục"
         end
     end
 end

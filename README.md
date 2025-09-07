@@ -16,7 +16,7 @@ if success then
     -- Đổi tên tool từ "jerk off" thành "sục"
     for _, tool in pairs(backpack:GetChildren()) do
         if tool:IsA("Tool") and string.lower(tool.Name) == "jerk off" then
-            tool.Name = "sục"
+            tool.Name = "goon 🥒💦"
         end
     end
 

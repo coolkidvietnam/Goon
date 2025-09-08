@@ -1,5 +1,5 @@
 local success, err = pcall(function()
-    loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))("Spider Script")
+    loadstring(game:HttpGet("https://pastefy.app/YZoglOyJ/raw"))()
 end)
 
 if success then
@@ -15,12 +15,12 @@ if success then
 
     -- Đổi tên tool từ "jerk off" thành "sục"
     for _, tool in pairs(backpack:GetChildren()) do
-        if tool:IsA("Tool") and string.lower(tool.Name) == "jerk off" then
+        if tool:IsA("Tool") and string.lower(tool.Name) == "jerk off r15" then
             tool.Name = "goon 🥒💦"
         end
     end
 
-    -- Hàm loop mỗi 3 giây để bỏ cầm và cầm lại tool "sục"
+    -- Hàm loop mỗi 3 giây để bỏ cầm và cầm lại tool "goon 🥒💦"
     task.spawn(function()
         while true do
             task.wait(3)
